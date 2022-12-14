@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.9);
+    padding: 20px 80px 0px 80px;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+main,
+nav,footer {
+    color: #ffffff;
+}
+
+.primary-ul,
+.secondary-ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.primary-ul {
+    gap: 60px;
+}
+
+.secondary-ul {
+    gap: 40px;
+}
+
+.fa-caret-down {
+    color: #ffffff;
+}
+
+.nav-icon-span {
+    padding-left: 10px;
+}
+
+.btn-li {
+    display: flex;
+    align-items: center;
+}
+
+.btn-img-span {
+    position: relative;
+    left: 15px;
+    top: 2px;
+}
+
+.simplify-section {
+    padding: 100px 0px 150px 80px;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url("/Landing_Page/Assets/Photos/frontCards.png"), url("/Landing_Page/Assets/Photos/backCards.png");
+    background-repeat: no-repeat;
+    background-position: bottom 80px left 130%, bottom 130px left 100%;
+    image-rendering: -webkit-optimize-contrast;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.simplify-section-btn {
+    width: 15%;
+    display: flex;
+    align-items: center;
+
+}
+
+.simplify-section-primary-heading {
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.simplify-section-secondary-heading {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 35px;
+    color: rgb(160, 160, 160);
+}
+
+.simplify-section-text-span {
+    position: relative;
+    right: 25px;
+    font-weight: 700;
+}
+
+.active-user-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.active-user-container-bold-text {
+    font-size: 40px;
+}
+
+.plus-icon {
+    font-size: 40px;
+    color: #c11bbf;
+    font-weight: 800;
+}
+
+.logo-section {
+    display: flex;
+    padding: 70px 250px 70px 250px;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.transaction-section {
+    background-color: rgb(0, 0, 0, 0.9);
+    padding: 130px 80px 130px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.transaction-section-heading-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 200px;
+}
+
+.transaction-section-heading-container h2 {
+    font-size: 75px;
+    font-weight: 300;
+}
+
+.transaction-section-heading-container h4 {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 35px;
+    color: rgb(160, 160, 160);
+}
+
+.transaction-section-image-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.transaction-section-image-container div {
+    border: 1px solid white;
+    padding: 40px 60px;
+}
+
+.transaction-section-image-container div h3 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.transaction-section-common-image {
+    background-color: #272727;
+}
+
+.transaction-section-image-odd {
+    position: relative;
+    bottom: 100px;
+    background-image: linear-gradient(black, rgb(150, 150, 150))
+}
+
+.choices-section {
+    background-color: #fceffb;
+    padding: 100px 80px 870px 80px;
+    background-image: url("/Landing_Page/Assets/Photos/VCards.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: auto;
+    background-position: center top 300px;
+    text-align: center;
+}
+
+.choices-section h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.choices-section h4 {
+    color: black;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+.feature-section {
+    padding: 100px 80px 100px 80px;
+    background-color: rgb(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.feature-section-container-1,
+.feature-section-container-2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.feature-section-container-1{
+    margin-top:60px;
+}
+.feature-section-container-1 div,
+.feature-section-container-2 div {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    border:1px solid white;
+    padding: 30px 20px 30px 20px ;
+    background-color: #272727;
+}
+
+.fa-ellipsis {
+    color: white;
+    font-size: 60px;
+}
+
+.caraousel-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.caraousel-pink-button {
+    background-color: #c11bbf;
+    height: 20px;
+    width: 70px;
+    border-radius: 15px;
+}
+
+.feature-section h1 {
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.feature-section h4 {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 35px;
+    color: rgb(160, 160, 160);
+}
+.feature-section-container-active{
+    background-image: linear-gradient(black, rgb(150, 150, 150))
+}
+.feature-section-container-1 p,.feature-section-container-2 p,.feature-section-container-1 h5,.feature-section-container-1 h6,.feature-section-container-2 h5, .feature-section-container-2 h6{
+    font-size: 18px;
+    color: #ffffffb7;
+    line-height: 25px;
+}
+.feature-section-container-1 h5,.feature-section-container-1 h6,.feature-section-container-2 h5, .feature-section-container-2 h6{
+    font-weight: 300;
+    font-size: 15px;
+}
+.custom-section{
+    background-image: url("/Landing_Page/Assets/Photos/Rectangle\ 6774.png"),url("/Landing_Page/Assets/Photos/Rectangle\ 6773.png");
+    padding: 100px 80px 100px 80px;
+    background-color: rgb(0, 0, 0, 0.9);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: space-around ;
+}
+.custom-section h1{
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+}
+footer{
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.9);
+    padding: 100px 80px 100px 80px;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center; 
+    width: 100%;
+    justify-content: center;
+    gap:40px;
+    padding-right:160px;
+}
